@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # Load the model
-model_path = '/home/sahilsssingh5/vlsi/best_xgb_model.joblib'
+model_path = 'home/sahilsssingh5/vlsi/best_xgb_model.joblib'
 if os.path.exists(model_path):
     model = joblib.load(model_path)
 else:
